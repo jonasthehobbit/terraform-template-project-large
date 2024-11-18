@@ -1,9 +1,9 @@
 
 terraform {
   cloud {
-    organization = "uoleeds"
+    organization = "org"
     workspaces {
-      name = "terraform-env-testing"
+      name = "workspace"
     }
   }
 }

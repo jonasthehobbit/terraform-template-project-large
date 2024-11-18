@@ -1,9 +1,9 @@
-## Informs Terraform that we are using a remote backend (state file storage)
+
 terraform {
   cloud {
-    organization = "uoleeds"
+    organization = "org"
     workspaces {
-      name = "terraform-env-testing"
+      name = "workspace"
     }
   }
 }
